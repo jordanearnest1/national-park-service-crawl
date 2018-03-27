@@ -1,14 +1,9 @@
-## proj_nps.py
-
-
-
 import requests
 from bs4 import BeautifulSoup
 import json as json
 import secrets
 import plotly.plotly as py
 from plotly.graph_objs import *
-
 
 
 mapbox_access_token = ""
