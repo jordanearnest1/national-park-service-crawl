@@ -1,6 +1,5 @@
 ## proj_nps.py
-## Skeleton for Project 2, Winter 2018
-## ~~~ modify this file, but don't rename it ~~~
+
 
 
 import requests
@@ -12,16 +11,8 @@ from plotly.graph_objs import *
 
 
 
-mapbox_access_token = "pk.eyJ1Ijoiam9yZGFlIiwiYSI6ImNqZXFjNW9tZDBxNXgyd280dmpvbnRodGQifQ.h_alLgQFCNFYVAbOfCGiUQ"
-
-## you can, and should add to and modify this class any way you see fit
-## you can add attributes and modify the __init__ parameters,
-##   as long as tests still pass
-##
-## the starter code is here just to make the tests run (and fail)
+mapbox_access_token = ""
 base_url = "https://www.nps.gov"
-
-
 
 ######################################################
 ############## Setting up Two classes ################
